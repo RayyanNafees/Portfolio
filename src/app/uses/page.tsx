@@ -8,7 +8,7 @@ function ToolsSection({
 }: React.ComponentPropsWithoutRef<typeof Section>) {
   return (
     <Section {...props}>
-      <ul role="list" className="space-y-16">
+      <ul className="space-y-16">
         {children}
       </ul>
     </Section>
@@ -73,7 +73,7 @@ export default function Uses() {
         </ToolsSection>
         <ToolsSection title="Development tools">
           <Tool title="Visual Studio Code">
-            Are you a Vim user reading this that think's you're better than me? Well, you're probably right. But I'm not going to let that stop me. Vim keybinds work just fine in VS Code. Plus, I can have an extension for just about everything I need! For example, hiding the sacreligiously long lines of tailwind classes.
+            Are you a Vim user reading this that think's you're better than me? Well, you're probably right. But I'm not going to const that stop me. Vim keybinds work just fine in VS Code. Plus, I can have an extension for just about everything I need! For example, hiding the sacreligiously long lines of tailwind classes.
           </Tool>
           <Tool title="Git">
             Really need to read this one? I mean, it's Git. You know what it is.

@@ -1,4 +1,4 @@
-import { type Metadata } from 'next'
+import  type {Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 // @ts-ignore
@@ -76,8 +76,7 @@ export default function About() {
             <p>
               I've been coding for over a decade now but the passion for it has
               never died down. I still laugh looking at the commits of my{' '}
-              <a
-                href="https://github.com/amanat361/Reddit-Bot/commit/43817aa4160f18aff22c071af3f95f4ed20f0188"
+              <a                 href="https://github.com/amanat361/Reddit-Bot/commit/43817aa4160f18aff22c071af3f95f4ed20f0188"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline"
@@ -127,7 +126,7 @@ export default function About() {
           </div>
         </div>
         <div className="lg:pl-20">
-          <ul role="list">
+          <ul>
             <SocialLink href="https://twitter.com/amanat361" icon={TwitterIcon}>
               Follow on Twitter
             </SocialLink>
